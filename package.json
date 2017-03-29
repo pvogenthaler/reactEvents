@@ -1,0 +1,25 @@
+{
+  "name": "react-events",
+  "version": "1.0.0",
+  "description": "event manager",
+  "main": "app/index.jss",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "author": "Paige Vogenthaler",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.3.2"
+  }
+}
